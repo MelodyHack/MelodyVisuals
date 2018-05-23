@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  #about {padding-top:50px;height:500px;color: #fff; background-color: #F2385A;}
+  #portfolio {padding-top:50px;height:500px;color: #fff; background-color: #F5A503;}
+  #skills {padding-top:50px;height:500px;color: #fff; background-color: #E9F1DF;}
+  #skills1 {padding-top:50px;height:500px;color: #fff; background-color: #BBC2B3;}
+  #skills2 {padding-top:50px;height:500px;color: #fff; background-color: #AAB0A3;}
+  #leadership {padding-top:50px;height:500px;color: #fff; background-color: #4AD9D9;}
+  #contact {padding-top:50px;height:500px;color: #fff; background-color: #36B1BF;}
+  </style>
+</head>
 
-<h1>My First Website!</h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<p>Welcome To My Website!.</p>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Melody Habbouche</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#skills">Skills <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#skills1">Skills 1</a></li>
+              <li><a href="#skills2">Skills 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#contact">Contact</a></li>
 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="about" class="container-fluid">
+  <h1>About me</h1>
+  <p><font size="100">WEBSITE IN PROGRESS!!</font></p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+<div id="portfolio" class="container-fluid">
+  <h1>Portfolio</h1>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></div>
+<div id="skills1" class="container-fluid">
+  <h1>Skills 1</h1>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>
+<div id="skills2" class="container-fluid">
+  <h1>Skills 2</h1>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+  
+<div id="leadership" class="container-fluid">
+  <h1>Leadership</h1>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+
+  <div id="contact" class="container-fluid">
+  <h1>Contact</h1>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
 </body>
 </html>
